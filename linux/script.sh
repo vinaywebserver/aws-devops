@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "hello from git!, running on `hostname` server"
+for i in {1..3}
+do 
+echo "Hello from Git! running on `hostname` server1"
+done
